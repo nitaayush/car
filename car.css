@@ -132,8 +132,7 @@ body {
   .dot4 {
       background-color: grey;
     }
-    .dot4:hover,
-    .dot4:active {
+    .dot4:hover {
         background-color: #f3f3f3;
       }
      .dot3:hover,
@@ -149,5 +148,11 @@ body {
         background-color: #f3f3f3;
       }
   
+      .dot4:link {
+          background-color: #4CAF50;
+      }
   
-  
+      .carName p {
+          margin-left: 200px;
+          margin-bottom: 15px;
+      }
